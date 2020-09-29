@@ -212,7 +212,7 @@ CPTPlotCachePrecision;
 
 /// @name Data Source
 /// @{
-@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id<CPTPlotDataSource> dataSource;
+@property (nonatomic, readwrite, cpt_weak_property) id<CPTPlotDataSource> dataSource;
 /// @}
 
 /// @name Identification
